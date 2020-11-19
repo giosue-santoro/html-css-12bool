@@ -6,7 +6,7 @@
 
 .container {
   margin: 0 auto;
-  width: 1170px;
+  max-width: 1170px;
 }
 
 .container::after {
@@ -19,6 +19,9 @@
   float: left;
 }
 
+[class*="col-"] .container {
+  padding: 20px;
+}
 
 .col-1 {
   width: calc((100% / 12) * 1);
