@@ -1,0 +1,7 @@
+[class*="col-"] {
+  border: 1px solid #000;
+  background: lightcoral;
+  height: 300px;
+  text-align: center;
+  line-height: 300px;
+}
